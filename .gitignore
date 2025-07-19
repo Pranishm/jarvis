@@ -1,14 +1,14 @@
-*.tar
-*.tar.*
-*.jar
-*.exe
-*.msi
-*.deb
-*.zip
-*.tgz
-*.log
-*.log.*
-*.sig
+# Ignore the envJarvis directory
+/envjarvis/
 
-pkg/
-src/
+# Ignore contact.csv
+contacts.csv
+
+# Ignore jarvis.db
+jarvis.db
+
+# Ignore Python bytecode files in backend
+/backend/__pycache__/ 
+
+# Ignore backend cookie.json
+/backend/cookie.json
